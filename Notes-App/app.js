@@ -4,7 +4,7 @@ const getNotes=require("./notes.js");
 
 console.log(getNotes());
 
-console.log(chalk.yellow.bgGreen.bold('Success!'));
+console.log(chalk.red.bgGreen.bold('Failure!'));
 
 
 // console.log("IS Email?"+validator.isEmail("faiz276482@gmail.com"));
