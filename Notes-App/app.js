@@ -1,10 +1,14 @@
-const validator=require('validator');
+// const validator=require('validator');
+const chalk=require("chalk");
 const getNotes=require("./notes.js");
 
 console.log(getNotes());
 
-console.log("IS Email?"+validator.isEmail("faiz276482@gmail.com"));
-console.log("is URL?:"+validator.isURL("https://nerdytech.in"));
+console.log(chalk.yellow.bgGreen.bold('Success!'));
+
+
+// console.log("IS Email?"+validator.isEmail("faiz276482@gmail.com"));
+// console.log("is URL?:"+validator.isURL("https://nerdytech.in"));
 
 
 
